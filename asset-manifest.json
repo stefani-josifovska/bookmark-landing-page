@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/bookmark-landing-page/static/css/main.cb839f02.css",
+    "main.js": "/bookmark-landing-page/static/js/main.90a73e88.js",
+    "static/js/787.46729148.chunk.js": "/bookmark-landing-page/static/js/787.46729148.chunk.js",
+    "static/media/logo-chrome.svg": "/bookmark-landing-page/static/media/logo-chrome.a42815a014c452e4d95851f7a8daf95b.svg",
+    "index.html": "/bookmark-landing-page/index.html",
+    "static/media/logo-firefox.svg": "/bookmark-landing-page/static/media/logo-firefox.a9e6ca53e8cfd641e556b7afb1f0085f.svg",
+    "static/media/bg-dots.svg": "/bookmark-landing-page/static/media/bg-dots.90f0b46cec8b5f7cfd12393cb5f391a7.svg",
+    "static/media/logo-opera.svg": "/bookmark-landing-page/static/media/logo-opera.ff14e4763945338fe002017c72e7e597.svg",
+    "main.cb839f02.css.map": "/bookmark-landing-page/static/css/main.cb839f02.css.map",
+    "main.90a73e88.js.map": "/bookmark-landing-page/static/js/main.90a73e88.js.map",
+    "787.46729148.chunk.js.map": "/bookmark-landing-page/static/js/787.46729148.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb839f02.css",
+    "static/js/main.90a73e88.js"
+  ]
+}
