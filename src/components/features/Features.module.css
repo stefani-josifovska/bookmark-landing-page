@@ -1,0 +1,50 @@
+.features-container {
+    text-align: center;
+    padding: 0 7%;
+}
+
+.features-container h2 {
+    font-size: 1.9em;
+    letter-spacing: 1px;
+}
+
+.features-container p {
+    color: gray;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.features-container li {
+    font-size: 1.2em;
+    color: darkgray;
+    line-height: 2.4em;
+    border-top: 1.8px solid lightgray;
+}
+
+.features-container li:last-of-type {
+    border-bottom: 1.8px solid lightgray;
+}
+
+.feature-active {
+    color: black;
+}
+
+.features-container li:hover {
+    cursor: pointer;
+}
+
+.features-container li:hover .option-text,
+.selected .option-text {
+    color: black;
+    border-bottom: 5px solid hsl(0, 94%, 66%);
+}
+
+.option-text {
+    margin: auto;
+    padding: 1rem 0;
+    line-height: 5rem;
+    width: fit-content;
+    border-bottom: 3px solid white;
+    border-top: 3px solid white;
+    pointer-events: none;
+}

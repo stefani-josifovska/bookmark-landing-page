@@ -1,0 +1,28 @@
+.feature-svg {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.image-container {
+    margin-bottom: 3rem;
+}
+
+.selected-feature-container {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10rem;
+}
+
+.selected-feature-container h3 {
+    font-size: 1.6em;
+    letter-spacing: 1.2px;
+}
+
+.selected-feature-container p {
+    color: gray;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+

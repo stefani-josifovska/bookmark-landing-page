@@ -1,0 +1,18 @@
+.download-container {
+    margin: auto;
+    padding: 0 7%;
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+.download-container h3 {
+    font-size: 1.6em;
+    letter-spacing: 1.2px;
+}
+
+.download-container p {
+    color: gray;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-bottom: 3rem;
+}

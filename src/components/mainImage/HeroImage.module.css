@@ -1,0 +1,21 @@
+.hero-container {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.hero-image {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.blue-background {
+    /* position: absolute; */
+    display: inline-block;
+    right: 0;
+    background-color: hsl(231, 69%, 60%);
+    border-bottom-left-radius: 50%;
+    width: 75vw;
+    height: 8rem;
+}
