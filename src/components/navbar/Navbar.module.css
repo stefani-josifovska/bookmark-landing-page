@@ -10,3 +10,54 @@
     opacity: 70%;
     cursor: pointer;;
 }
+
+@media (min-width: 850px) {
+    .navbar {
+        padding: 0 10%;
+    }
+
+    .login-btn {
+        font-family: "Rubik", sans-serif;
+        font-weight: 400;
+        background-color: hsl(0, 94%, 66%);
+        width: 8rem;
+        height: 2rem;
+        border-radius: 5px;
+        color: white;
+        font-size: 0.7em;
+        letter-spacing: 2px;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .menu ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .menu li {
+        letter-spacing: 2px;
+        font-size: 0.9em;
+        line-height: 3rem;
+    }
+
+    .menu li:hover {
+        cursor: pointer;
+        color:hsl(0, 94%, 66%);
+    }
+
+    .login-btn:hover {
+        background-color: white;
+        color: hsl(0, 94%, 66%);
+        border: 2px solid hsl(0, 94%, 66%);
+    }
+}

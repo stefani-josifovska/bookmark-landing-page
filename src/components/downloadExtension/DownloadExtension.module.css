@@ -3,6 +3,7 @@
     padding: 0 7%;
     text-align: center;
     margin-bottom: 10rem;
+    box-sizing: border-box;
 }
 
 .download-container h3 {
@@ -15,4 +16,37 @@
     font-size: 1em;
     line-height: 1.5em;
     margin-bottom: 3rem;
+}
+
+@media (min-width: 850px) {
+    .text-container {
+        padding: 0 25%;
+    }
+
+    .card-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2%;
+        height: 500px;
+    }
+
+    .browser-card {
+        flex: 1 1 0;
+    }
+
+    .browser-card:first-of-type {
+        align-self: flex-start;
+    }
+
+    .browser-card:last-of-type {
+        align-self: flex-end;
+    }
+}
+
+@media (min-width: 1100px) {
+    .card-container {
+        width: 930px;
+        margin: auto;
+    }
 }

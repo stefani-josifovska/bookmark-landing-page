@@ -13,22 +13,29 @@ const Features = () => {
 
   const selectFeatureHandler = (e) => {
     setFeatureId(e.target.id);
-  }
+  };
 
   return (
     <>
       <section className={classes["features-container"]}>
-        <h2>Features</h2>
-        <p>
-          Our aim is to make it quick and easy for you to access your favourite
-          websites. Your bookmarks sync between your devices so you can access
-          them on the go.
-        </p>
-        <ul style={{ listStyleType: "none", padding: "0", marginBottom: "4.5rem" }}>
+        <div>
+          <h2>Features</h2>
+          <p>
+            Our aim is to make it quick and easy for you to access your
+            favourite websites. Your bookmarks sync between your devices so you
+            can access them on the go.
+          </p>
+        </div>
+        <ul>
           {featuresOptions.map((option) => {
             return (
-              <li className={option.id === featureId ? classes.selected : ""} key={option.id} id={option.id} onClick={selectFeatureHandler} >
-                <p className={classes['option-text']}>{option.name}</p>
+              <li
+                className={option.id === featureId ? classes.selected : ""}
+                key={option.id}
+                id={option.id}
+                onClick={selectFeatureHandler}
+              >
+                <p className={classes["option-text"]}>{option.name}</p>
               </li>
             );
           })}

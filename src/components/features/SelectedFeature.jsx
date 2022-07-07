@@ -1,4 +1,6 @@
 import React from "react";
+import useScreenSize from "../../hooks/use-screen-size";
+import Button from "../UI/Button";
 import classes from "./SelectedFeature.module.css";
 
 import illustrationFeature1 from "./illustrations/illustration1";
@@ -6,6 +8,8 @@ import illustrationFeature2 from "./illustrations/illustration2";
 import illustrationFeature3 from "./illustrations/illustration3";
 
 const SelectedFeature = ({ selectedId }) => {
+  const isDesktopVersion = useScreenSize();
+
   let title = "";
   let text = "";
   let img = "";
@@ -34,11 +38,12 @@ const SelectedFeature = ({ selectedId }) => {
 
   return (
     <section className={classes["selected-feature-container"]}>
-      <div className={classes['image-container']}>
-        {img}
+      <div className={classes["image-container"]}>{img}</div>
+      <div>
+        <h3>{title}</h3>
+        <p>{text}</p>
+        {isDesktopVersion && <Button className={classes.btn}>More Info</Button>}
       </div>
-      <h3>{title}</h3>
-      <p>{text}</p>
     </section>
   );
 };

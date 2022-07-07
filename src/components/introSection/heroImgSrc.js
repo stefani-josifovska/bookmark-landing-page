@@ -1,4 +1,4 @@
-import classes from './HeroImage.module.css';
+import classes from './Introduction.module.css';
 
 export const heroImage = (
   <svg

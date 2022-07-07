@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import classes from "./FAQ.module.css";
 import { questionsList } from "./questionsList";
 import { arrowSymbol } from "./arrowSymbol";
 import Button from "../UI/Button";
+import classes from "./FAQ.module.css";
 
 const FAQ = () => {
   const [selectedQuestion, setSelectedQuestion] = useState("");

@@ -30,23 +30,25 @@ const Signup = () => {
       <h5>35,000+ ALREADY JOINED</h5>
       <h3>Stay up-to-date with what we’re doing</h3>
       <form onSubmit={submitHandler}>
-        <div className={hasError ? classes.error : undefined}>
-          <input
-            type="text"
-            placeholder="Enter your email address"
-            onChange={changeHandler}
-            onBlur={blurHandler}
-            value={enteredEmail}
-          />
-          {hasError && <p>Whoops, make sure it's an email</p>}
-        </div>
-        <Button
-          disabled={hasError}
-          className={classes.btn}
-          onClick={submitHandler}
-        >
-          Contact Us
-        </Button>
+        <section>
+          <div className={hasError ? classes.error : undefined}>
+            <input
+              type="text"
+              placeholder="Enter your email address"
+              onChange={changeHandler}
+              onBlur={blurHandler}
+              value={enteredEmail}
+            />
+            {hasError && <p>Whoops, make sure it's an email</p>}
+          </div>
+          <Button
+            disabled={hasError}
+            className={classes.btn}
+            onClick={submitHandler}
+          >
+            Contact Us
+          </Button>
+        </section>
       </form>
     </section>
   );

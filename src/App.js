@@ -1,8 +1,7 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./components/navbar/Navbar";
-import HeroImage from "./components/mainImage/HeroImage";
-import Introduction from "./components/Introduction";
+import Introduction from "./components/introSection/Introduction";
 import Features from "./components/features/Features";
 import DownloadExtension from "./components/downloadExtension/DownloadExtension";
 import FAQ from "./components/questions/FAQ";
@@ -13,7 +12,6 @@ function App() {
   return (
     <>
       <Navbar />
-      <HeroImage />
       <Introduction />
       <Features />
       <DownloadExtension />

@@ -1,0 +1,140 @@
+.intro-section {
+  text-align: center;
+  padding: 0 7%;
+  box-sizing: border-box;
+}
+
+.intro-section h1 {
+  font-size: 2em;
+  line-height: 1.5em;
+  color: black;
+  letter-spacing: 1px;
+}
+
+.intro-section p {
+  color: gray;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-bottom: 10%;
+}
+
+.button-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5%;
+  margin-bottom: 10rem;
+}
+
+.btn1,
+.btn2 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  flex: 1 1 0;
+  font-size: 0.9em;
+  max-width: 15rem;
+}
+
+.btn1 {
+  color: white;
+  background-color: hsl(231, 69%, 60%);
+  border: 2px solid hsl(231, 69%, 60%);
+}
+
+.btn2 {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 15px lightgray;
+  border: 2px solid white
+}
+
+.btn2:hover {
+  background-color: rgb(231, 225, 225);
+}
+
+.hero-container {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+@media (min-width: 620px) {
+  .button-container {
+    justify-content: space-evenly;
+  }
+}
+
+@media (min-width: 850px) {
+  .img-intro {
+    display: grid;
+    grid-template-columns: repeat(2, 6fr);
+    grid-template-rows: 12fr;
+    max-height: 340px;
+    padding: 0 10%;
+    gap: 3rem;
+    margin-bottom: 8rem;
+  }
+
+  .intro-section {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-height: 340px;
+    padding: 0;
+  }
+
+  .intro-section h1,
+  .intro-section p {
+    text-align: left;
+  }
+
+  .button-container {
+    justify-content: flex-start;
+  }
+
+  .btn1,
+  .btn2 {
+    max-width: 12rem;
+    border-radius: 5px;
+  }
+
+  .hero-container {
+    grid-column: 2 / -1;
+    grid-row: 1 / 2;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 2rem;
+  }
+
+  .hero-image {
+    max-height: 300px;
+    margin-right: 0;
+  }
+
+  .button-container {
+    margin-bottom: 0;
+  }
+
+  .btn1:hover {
+    background-color: white;
+    color: hsl(231, 69%, 60%);
+    border: 2px solid hsl(231, 69%, 60%);
+  }
+
+  .btn2:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+  }
+}
